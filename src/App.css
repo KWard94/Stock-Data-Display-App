@@ -6,10 +6,6 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
-.companyDisplay {
-  border: solid black;
-=======
 .company-container {
   display: flex;
   flex-direction: row;
@@ -20,7 +16,6 @@ body {
 .companyDisplay {
   border: solid black;
   width: 25%;
->>>>>>> b00e1a1 (revert no API key)
 }
 
 .footer {
