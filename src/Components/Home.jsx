@@ -7,7 +7,6 @@ export default function Home () {
     return (
         <div className='home'>
             <div className='stockContainer'>
-            <h1>NY$E Company Data</h1>
             <Data />
 
 

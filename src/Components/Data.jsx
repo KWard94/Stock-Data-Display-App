@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
-// import App from '../App';
-// import STOCK_API_KEY from './env.local'
 
 
 export default function Data () {
     const [data, setData] = useState();
 
-    const fetchData = () => {
+    //this api key does not work, need to troubleshoot
+    const API_KEY = process.env.REACT_APP_STOCK_API_KEY;
+        
 
+    const fetchData = () => {
+        fetch(`https://cloud.iexapis.com/stable/stock/XOM/quote?token=${API_KEY}`)
+        
+        //figure out this url
 
     .then(res => res.json())
     .then(res =>{
@@ -24,12 +28,12 @@ useEffect(() => {
     return (
         <div className='dataDisplay'>
         <div>
-        <h1>Data Here!</h1>
+        <h1>Please See a Sample Portfolio Below</h1>
         </div>
         <div className='companyDisplay'>
-            <h5>Company Name: {data.companyName}</h5>
+            {/* <h5>Company Name: {data.companyName}</h5>
             <h6>Stock Ticker: ${data.symbol}</h6>
-            <h6>Current Price: ${data.latestPrice}</h6>
+            <h6>Current Price: ${data.latestPrice}</h6> */}
         </div>
 
 

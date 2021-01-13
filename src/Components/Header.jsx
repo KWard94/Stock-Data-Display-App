@@ -5,7 +5,7 @@ import Search from './Search';
 export default function Header () {
     return (
         <div className='header'>
-        <h1>HEADER</h1>
+            <h1>NY$E Company Data</h1>
         <Nav />
 
         <Search />

@@ -1,5 +1,10 @@
+a {
+  color: red;
+  text-decoration: none;
+}
+
 body {
-  background-color: cadetblue;
+  background-color: rgb(69, 78, 78);
 }
 
 .App {
@@ -18,18 +23,19 @@ body {
   width: 25%;
 }
 
-.footer {
-  background-color:darksalmon;
+.footer, .header {
+  background-color:rgb(57, 68, 92);
+  color: aliceblue;
   margin: 1fr;
   padding:5px;
 }
 
-.header {
-  background-color: aquamarine;
-}
-
 .home {
-  background-color: cornsilk;
+  background-color:slategrey;
+  color:aliceblue;
+  min-height: 25rem;
+  margin-top:1rem;
+  margin-bottom: 1rem;
 }
 
 .nav-container {
@@ -45,7 +51,8 @@ body {
 }
 
 .search {
-  background-color: darkseagreen;
+  background-color: aliceblue;
+  color: crimson;
 }
 
 
