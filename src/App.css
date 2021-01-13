@@ -1,0 +1,57 @@
+body {
+  background-color: cadetblue;
+}
+
+.App {
+  text-align: center;
+}
+
+<<<<<<< HEAD
+.companyDisplay {
+  border: solid black;
+=======
+.company-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+
+.companyDisplay {
+  border: solid black;
+  width: 25%;
+>>>>>>> b00e1a1 (revert no API key)
+}
+
+.footer {
+  background-color:darksalmon;
+  margin: 1fr;
+  padding:5px;
+}
+
+.header {
+  background-color: aquamarine;
+}
+
+.home {
+  background-color: cornsilk;
+}
+
+.nav-container {
+  background-color: linen;
+  color: slategray;
+  display: inline;
+}
+
+.professional-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.search {
+  background-color: darkseagreen;
+}
+
+
+
