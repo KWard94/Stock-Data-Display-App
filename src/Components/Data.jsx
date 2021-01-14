@@ -1,10 +1,10 @@
 import React from 'react';
-import Apple from './Apple.jsx';
-import Facebook from './Facebook.jsx';
-import Microsoft from './Microsoft.jsx';
-import MorganStanley from './MorganStanley.jsx';
-import Snapchat from './Snapchat.jsx';
-import Tesla from './Tesla.jsx';
+import Apple from './Homepage_Companies/Apple.jsx';
+import Facebook from './Homepage_Companies/Facebook.jsx';
+import Microsoft from './Homepage_Companies/Microsoft.jsx';
+import MorganStanley from './Homepage_Companies/MorganStanley.jsx';
+import Snapchat from './Homepage_Companies/Snapchat.jsx';
+import Tesla from './Homepage_Companies/Tesla.jsx';
 
 export default function Data () {
 
