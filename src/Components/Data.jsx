@@ -1,28 +1,32 @@
 import React, { useState, useEffect } from 'react';
 
-
 export default function Data () {
     const [data, setData] = useState();
 
     //this api key does not work, need to troubleshoot
-    const API_KEY = process.env.REACT_APP_STOCK_API_KEY;
-        
-
+    useEffect(() => {
+    const ticker = 'fb';
     const fetchData = () => {
-        fetch(`https://cloud.iexapis.com/stable/stock/XOM/quote?token=${API_KEY}`)
+        const API_KEY = process.env.REACT_APP_STOCK_API_KEY;
+        console.log(API_KEY);
+        const url = `https://cloud.iexapis.com/stable/stock/${ticker}/quote?token=${API_KEY}`
+
+        fetch(`url`)
         
         //figure out this url
-
-    .then(res => res.json())
+    fetch(``)
+    .then(res => res.json(data))
     .then(res =>{
         console.log(res)
         setData(res)
     })
 }
 
-useEffect(() => {
+
     fetchData(data)
 }, [])
+
+
 
 
     return (
