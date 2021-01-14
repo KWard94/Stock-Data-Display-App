@@ -9,9 +9,6 @@ export default function Home () {
             <div className='stockContainer'>
             <Data />
 
-
-            <p>Will they be hard coded? only time will tell...</p>
-
             {/* <Route exact path='/dummycompA' component={DummyCompA}/>
 
             <Route exact path='/' component={Home}/> */}

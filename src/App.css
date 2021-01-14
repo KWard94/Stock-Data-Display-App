@@ -19,9 +19,15 @@ body {
  
 }
 
+.companyDataDisplay1, .companyDataDisplay2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .companyDisplay {
   border: solid black;
-  width: 25%;
+  width: 12rem;
 }
 
 .footer, .header {
@@ -35,7 +41,7 @@ body {
 .home {
   background-color:slategrey;
   color:aliceblue;
-  min-height: 25rem;
+  height: 35rem;
   margin-top:1rem;
   margin-bottom: 1rem;
 }
