@@ -2,7 +2,7 @@
 Welcome, this will be an app built in React to display stock data from the New York Stock Exchange!
 
 ## Link to Deployed Site
-Link: 
+Link: https://nyse-stock-data.herokuapp.com/
 
 ## App description
 This site is populated by the IEX Cloud API for stock data.
