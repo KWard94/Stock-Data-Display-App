@@ -30,6 +30,11 @@ body {
   width: 25rem;
   height: 28rem;
   font-size: 3vh;
+  background-color: slategray;
+  padding: 3vh;
+  margin: 0 auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .testCompanyDisplay {
