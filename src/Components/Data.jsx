@@ -9,6 +9,8 @@ import Tesla from './Homepage_Companies/Tesla.jsx';
 
 export default function Data () {
 
+    //comment for commit
+    
     return (
         <div className='dataDisplay'>
         <div>
