@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function Microsoft () {
     const [data, setData] = useState();
@@ -25,6 +27,8 @@ export default function Microsoft () {
 
 
     return (
+        <Link to='../Company-Details/MicrosoftDetails.jsx'>
+
         <div className='dataDisplay'>
        {
            data != undefined
@@ -39,6 +43,7 @@ export default function Microsoft () {
        }
 
         </div>
+        </Link>
         
     )
 };

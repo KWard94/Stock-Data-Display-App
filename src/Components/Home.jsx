@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link  } from 'react-router-dom';
+import AppleDetails from './Company-Details/AppleDetails';
 // import DummyCompA from './DummyCompA';
 import Data from './Data';
 
@@ -9,9 +10,6 @@ export default function Home () {
             <div className='stockContainer'>
             <Data />
 
-            {/* <Route exact path='/dummycompA' component={DummyCompA}/>
-
-            <Route exact path='/' component={Home}/> */}
 
             </div>
         </div>

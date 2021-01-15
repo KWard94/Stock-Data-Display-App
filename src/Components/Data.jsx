@@ -1,4 +1,5 @@
 import React from 'react';
+import AppleDetails from './Company-Details/AppleDetails.jsx';
 import Apple from './Homepage_Companies/Apple.jsx';
 import Facebook from './Homepage_Companies/Facebook.jsx';
 import Microsoft from './Homepage_Companies/Microsoft.jsx';

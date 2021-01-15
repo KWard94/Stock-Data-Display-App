@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Facebook () {
     const [data, setData] = useState();
@@ -25,6 +26,7 @@ export default function Facebook () {
 
 
     return (
+        <Link to='../Company-Details/FacebookDetails.jsx'>
         <div className='dataDisplay'>
        {
            data != undefined
@@ -39,6 +41,7 @@ export default function Facebook () {
        }
 
         </div>
+        </Link>
         
     )
 };

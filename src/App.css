@@ -24,6 +24,14 @@ body {
   justify-content: space-evenly;
 }
 
+.detailCompanyDisplay {
+  border: solid black;
+  color: aliceblue;
+  width: 25rem;
+  height: 28rem;
+  font-size: 3vh;
+}
+
 .testCompanyDisplay {
   border: solid black;
   width: 15rem;
@@ -47,6 +55,7 @@ body {
 .header {
   display: flex;
   flex-direction: column;
+  /* font-size: 5vh; */
 }
 
 

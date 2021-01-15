@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Apple () {
     const [data, setData] = useState();
@@ -25,6 +26,8 @@ export default function Apple () {
 
 
     return (
+        <Link to='../Company-Details/AppleDetails.jsx'>
+
         <div className='dataDisplay'>
        {
            data != undefined
@@ -39,6 +42,7 @@ export default function Apple () {
        }
 
         </div>
+        </Link>
         
     )
 };
