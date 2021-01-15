@@ -13,10 +13,7 @@ body {
 }
 
 .company-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
- 
+  margin: 0 auto;
 }
 
 .companyDataDisplay1, .companyDataDisplay2 {
@@ -37,7 +34,19 @@ body {
   margin: 1fr;
   padding:5px;
   height: 15rem;
+  display: flex;
 }
+
+.footer-container {
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .home {
   background-color:slategrey;
@@ -53,10 +62,18 @@ body {
   display: inline;
 }
 
+.testCompanyDisplay {
+  border: solid black;
+  width: 12rem;
+  height: 10rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
 .professional-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  /* align-items: center; */
 }
 
 .search {

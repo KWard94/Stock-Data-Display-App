@@ -6,6 +6,7 @@ import MorganStanley from './Homepage_Companies/MorganStanley.jsx';
 import Snapchat from './Homepage_Companies/Snapchat.jsx';
 import Tesla from './Homepage_Companies/Tesla.jsx';
 
+
 export default function Data () {
 
     return (
@@ -29,6 +30,7 @@ export default function Data () {
             <Facebook />
 
         </div>
+    
 
 
 
