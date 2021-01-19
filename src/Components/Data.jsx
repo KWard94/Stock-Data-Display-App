@@ -13,7 +13,7 @@ export default function Data () {
     return (
         <div className='dataDisplay'>
         <div>
-        <h1>Please See a Sample Portfolio Below</h1>
+        <h1>Please See a Sample Portfolio</h1>
         </div>
         <div className='companyDataDisplay1'>
             <Apple />

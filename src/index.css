@@ -15,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tagLine {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}

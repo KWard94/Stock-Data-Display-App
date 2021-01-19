@@ -7,7 +7,7 @@ export default function Header () {
         <div className='header'>
             <h1 className='mainTitle'><a href='/'>NY$E Company Data</a></h1>
             <br/>
-            <p>A place for daily updated stock data from the New York Stock Exchange</p>
+            <p className='tagLine'>A place for daily updated stock data from the New York Stock Exchange</p>
         {/* <Nav /> */}
 
         <Search />

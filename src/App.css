@@ -106,7 +106,9 @@ body {
   width: 20rem;
   height: 3rem;
   position: relative;
+  bottom: 25px;
   padding: 5px;
+  margin: 10px;
 }
 
 .stockContainer {
