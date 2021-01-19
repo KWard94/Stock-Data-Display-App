@@ -23,10 +23,7 @@ export default function AppleDetails () {
             getData()
             }, [])
 
-            const lineStyle = {
-                
-            }
-    
+            
         return (
     
             <div className='dataDisplay'>

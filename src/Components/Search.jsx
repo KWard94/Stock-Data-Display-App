@@ -1,12 +1,15 @@
 import React from 'react';
+import SearchForm from './SearchForm.jsx';
+import SearchResults from './SearchResults.jsx';
 
 export default function Search () {
     return (
         <div className='search'>
-           <form>
-               <input type='text' placeholder='Search Here'/>
-               <button type='submit'>Search!</button>
-           </form>
+
+            <SearchForm />
+
+            <SearchResults />
+
 
            
         </div>
