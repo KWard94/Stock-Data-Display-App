@@ -8,7 +8,7 @@ import CompanyDetails from './Components/Company-Details/AppleDetails.jsx';
 import AppleDetails from './Components/Company-Details/AppleDetails.jsx';
 import FacebookDetails from './Components/Company-Details/FacebookDetails';
 import MicrosoftDetails from './Components/Company-Details/MicrosoftDetails';
-import MorganStanley from './Components/Homepage_Companies/MorganStanley';
+// import MorganStanley from './Components/Homepage_Companies/MorganStanley';
 import SnapchatDetails from './Components/Company-Details/SnapchatDetails';
 import TeslaDetails from './Components/Company-Details/TeslaDetails';
 import MorganStanleyDetails from './Components/Company-Details/MorganStanleyDetails';
@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+
       <Header />
       <main>
 

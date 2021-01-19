@@ -15,7 +15,6 @@ export default function FacebookDetails () {
     
             const dataResponse = await fetch(url)
             const dataJson = await dataResponse.json()
-                console.log(dataJson)
             setData(dataJson)
         }
     

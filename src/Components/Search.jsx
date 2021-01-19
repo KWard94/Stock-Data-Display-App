@@ -7,6 +7,8 @@ export default function Search () {
                <input type='text' placeholder='Search Here'/>
                <button type='submit'>Search!</button>
            </form>
+
+           
         </div>
     )
 };

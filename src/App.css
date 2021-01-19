@@ -6,15 +6,12 @@ a {
 
 body {
   background-color: rgb(69, 78, 78);
-  /* display: flex;
-  margin: 0  auto;
-  align-content: center;
-  justify-content: center; */
 }
 
 
 .App {
   text-align: center;
+
 }
 
 .company-container {
@@ -54,12 +51,10 @@ body {
   margin: 3fr;
   padding:5px;
   height: 15rem;
-  /* position: fixed; */
-  z-index: 1;
-  /* width: 100%; */
 }
 
 .footer {
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -84,7 +79,6 @@ body {
   margin: 1rem;
   width: 98%;
   border: solid;
-  /* position: fixed; */
 }
 
 .mainTitle{
@@ -112,6 +106,7 @@ body {
   width: 20rem;
   height: 3rem;
   position: relative;
+  padding: 5px;
 }
 
 .stockContainer {
