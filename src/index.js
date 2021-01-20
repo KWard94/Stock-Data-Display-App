@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+// the below Route will render all components within and including App
 ReactDOM.render(
   <Router>
     <Route to='*' component={App}/>

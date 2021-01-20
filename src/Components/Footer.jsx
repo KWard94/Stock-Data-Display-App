@@ -1,5 +1,5 @@
 import React from 'react';
-
+//This component will render the links to contact me.
 export default function Footer () {
     return(
         <div className='footer'>
@@ -12,7 +12,7 @@ export default function Footer () {
                 <div className='professional-links'>
 
                     <div className='linkedIn'>
-
+{/* Each a tag has a link, and each link has an image tag within them to display the company logo */}
                     <a href='https://www.linkedin.com/in/keenan-k-ward/' target='_blank' rel='noreferrer'>
                         LinkedIn <br/>
                         <img src='https://www.flaticon.com/svg/vstatic/svg/174/174857.svg?token=exp=1610644217~hmac=696969d2b330a3a4318e48dd14af9c56' alt='LinkedIn' height='50px'/>

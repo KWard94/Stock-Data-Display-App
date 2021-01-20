@@ -6,7 +6,8 @@ export default function MorganStanley () {
     const [data, setData] = useState();
 
   
-   
+         // This API call will render just the individual company display on the details page that corresponds to the stock Ticker
+
 
     const getData = async () => {
         const ticker = 'ms';

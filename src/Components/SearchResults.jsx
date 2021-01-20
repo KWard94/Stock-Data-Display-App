@@ -1,6 +1,5 @@
 import React from 'react';
 import SearchForm from './SearchForm.jsx';
-import Search from './Search.jsx';
 
 export default function SearchResults ({data}) {
     console.log(`test: ${data}`)

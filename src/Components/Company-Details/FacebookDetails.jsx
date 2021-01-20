@@ -5,7 +5,8 @@ export default function FacebookDetails () {
     const [data, setData] = useState();
 
   
-   
+      // This API call will render just the individual company display on the home page that corresponds to the stock Ticker
+
 
         const getData = async () => {
             const ticker = 'fb';

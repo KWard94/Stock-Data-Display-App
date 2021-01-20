@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 export default function Microsoft () {
     const [data, setData] = useState();
 
-  
+        // This API call will render just the individual company display on the details page that corresponds to the stock Ticker
+
    
 
     const getData = async () => {

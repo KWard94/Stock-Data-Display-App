@@ -13,11 +13,12 @@ import SnapchatDetails from './Components/Company-Details/SnapchatDetails';
 import TeslaDetails from './Components/Company-Details/TeslaDetails';
 import MorganStanleyDetails from './Components/Company-Details/MorganStanleyDetails';
 import SearchResults from './Components/SearchResults';
+import SearchForm from './Components/SearchForm';
 
 function App() {
 
   const [data, setData] = useState();
-
+// I have included this API call to ensure that the search function can pass data to a new search results page.
     const getData = async () => {
     const ticker = '';
     const key = process.env.REACT_APP_API_KEY;
@@ -38,13 +39,15 @@ useEffect(() => {
     <div className="App">
 
       <Header data={data} setData={setData}/>
+      <Route path='./Components/SearchForm.jsx' component={SearchForm} data={data} setData={setData} />
       <Route exact path='/result' render={() => {
         return(
         <SearchResults data={data} setData={setData}/>)
+        
       }}/>
       <main>
 
-
+        {/* These paths will render the individual components as home page companies to display */}
 
       <Route exact path ='/' component={Home} />
 
@@ -59,6 +62,7 @@ useEffect(() => {
       <Route path='/Company-Details/SnapchatDetails.jsx' exact component={SnapchatDetails}/>
 
       <Route path='/Company-Details/TeslaDetails.jsx' exact component={TeslaDetails}/>
+
 
 
       </main>

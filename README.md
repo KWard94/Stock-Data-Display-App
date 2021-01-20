@@ -55,10 +55,14 @@ https://cloud.iexapis.com/
 
 - I had a hard time getting my search to work, I was able to get the slug to reflect the user input in the searchbar, but could not render it to the page with data.
 
+- After searching for a company the search bar disappears. I was able to rerender the search form, but the search would break on a second search. I will leave it so the search bar only appears on the home page. 
+
 ## My Wins and Successes
 - I was happy that I was able to properly display a collection of stocks and some basic data about the companies on my home page.
 
 - I feel as though this project came together as a more polished and complete website, compared to my previous project.
+
+- I was happy that I was able to include the API call in my app.js in order to let the search function read the API and fill in the stock symbol for the search.
 
 ## Things I Would do Differently Next Time
 - I would try to code this website as a map function to display information from the API with only one API call. This would make the code more DRY.

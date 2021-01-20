@@ -21,11 +21,6 @@ const [successfulSearch, setSuccessfulSearch] = useState(false);
       }
 
 
-// useEffect((event) => {
-//     getData(searchString)
-//     console.log(`Search Test Here: ${{searchString}}`);
-// }, [])
-
 const getData = async (searchString) => {
     const ticker = searchString;
     const key = process.env.REACT_APP_API_KEY;
@@ -51,7 +46,6 @@ if (successfulSearch) {
           onChange={handleChange}
           value={searchString}
         />
-        {/* <button className='search-button' type="submit" onSubmit={handleSubmit}>Search</button> */}
 
 
         <button className='search-button' type="submit" onSubmit={handleSubmit}>Search</button>
