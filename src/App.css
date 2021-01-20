@@ -6,13 +6,9 @@ a {
 
 body {
   background-color: rgb(69, 78, 78);
+  margin: 0;
 }
 
-
-.App {
-  text-align: center;
-
-}
 
 .company-container {
   margin: 0 auto;
@@ -35,6 +31,7 @@ body {
   margin: 0 auto;
   margin-top: 3vh;
   margin-bottom: 3vh;
+
 }
 
 .testCompanyDisplay {
@@ -62,6 +59,7 @@ body {
   background-image: url('https://images.unsplash.com/photo-1518983682921-e8a9e4177988?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80');
   background-size: cover;
   background-position:center;
+  border-bottom: solid rgb(57, 68, 92) 5px;
 }
 
 
@@ -75,9 +73,10 @@ body {
   height: 15rem;
 }
 
-.footer-container {
+/* .footer-container {
   margin: 0 auto;
-}
+} */
+
 
 .home {
   background-color:slategrey;
@@ -101,10 +100,12 @@ body {
 .professional-links {
   display: flex;
   flex-direction: row;
-  width: 40vh;
+  justify-content: space-evenly;
+  width: 100vh;
   padding: 3vh;
   position: relative;
-  left: 37%;
+  left: 25%;
+  font-size: 20px;
 }
 
 .search {
@@ -135,3 +136,24 @@ body {
 }
 
 
+
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+@keyframes companyAnimation{
+  from {
+    background-color: slategrey;
+  }
+  50% {
+    background-color: rgb(57, 68, 92, .7);
+  }
+  to {background-color: slategray;}
+}
+
+
+.testCompanyDisplay:hover {
+  animation-name: companyAnimation;
+  animation-duration: 1.5s;
+}

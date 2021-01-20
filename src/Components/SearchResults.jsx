@@ -6,11 +6,10 @@ export default function SearchResults () {
 const [data, setData] = useState();
 const [searchString, setSearchString] = useState('')
 
-  
    
 
-    const getData = async () => {
-        const ticker = {};
+    const getData = async (searchString) => {
+        const ticker = {searchString};
         const key = process.env.REACT_APP_API_KEY;
         const url = `https://cloud.iexapis.com/stable/stock/${ticker}/quote?token=${key}`
 
@@ -20,9 +19,9 @@ const [searchString, setSearchString] = useState('')
         setData(dataJson)
     }
 
-    useEffect(() => {
-
-        getData()
+    useEffect((searchString) => {
+        console.log(searchString)
+        getData(searchString)
         }, [])
 
 

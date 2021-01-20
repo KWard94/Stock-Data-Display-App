@@ -3,8 +3,9 @@ import React, {useState, useEffect } from 'react';
 
 //unsure if I will need all of these parameters below
 
-function SearchForm({ handleSubmit, handleChange, searchString }) {
+function SearchForm({ handleSubmit, searchString }) {
     
+  
     
     return (
       <form onSubmit={handleSubmit} className="form-horizontal">
@@ -14,7 +15,6 @@ function SearchForm({ handleSubmit, handleChange, searchString }) {
           type="text"
           name="searchString"
           required
-          onChange={handleChange}
           value={searchString}
         />
         <button className='search-button' type="submit">Search</button>
