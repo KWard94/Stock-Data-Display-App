@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, withRouter } from 'react-router-dom';
 import Header from './Components/Header.jsx';
 import Home from './Components/Home.jsx';
 import Footer from './Components/Footer.jsx';
@@ -12,16 +12,38 @@ import MicrosoftDetails from './Components/Company-Details/MicrosoftDetails';
 import SnapchatDetails from './Components/Company-Details/SnapchatDetails';
 import TeslaDetails from './Components/Company-Details/TeslaDetails';
 import MorganStanleyDetails from './Components/Company-Details/MorganStanleyDetails';
+import SearchResults from './Components/SearchResults';
 
 function App() {
+
+  const [data, setData] = useState();
+
+    const getData = async () => {
+    const ticker = '';
+    const key = process.env.REACT_APP_API_KEY;
+    const url = `https://cloud.iexapis.com/stable/stock/${ticker}/quote?token=${key}`
+
+
+    const dataResponse = await fetch(url)
+    const dataJson = await dataResponse.json()
+    setData(dataJson)
+}
+
+useEffect(() => {
+
+    getData()
+    }, [])
 
   return (
     <div className="App">
 
-      <Header />
+      <Header data={data} setData={setData}/>
+      <Route exact path='/result' render={() => {
+        return(
+        <SearchResults data={data} setData={setData}/>)
+      }}/>
       <main>
 
-      {/* <Route path='/Company-Details/:symbol.jsx' exact component={AppleDetails}/> */}
 
 
       <Route exact path ='/' component={Home} />
@@ -53,3 +75,4 @@ function App() {
 }
 
 export default App;
+

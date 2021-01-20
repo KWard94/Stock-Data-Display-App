@@ -30,7 +30,7 @@ https://cloud.iexapis.com/
 
 - Display popular or predetermined stocks on the homepage
 
-- Display the stock ticker as a dynamic element
+- Display the stock symbol as a dynamic element
 
 - Have the option to select a company to see a more detailed view of the stock data
 
@@ -43,7 +43,8 @@ https://cloud.iexapis.com/
 
 - Display stocks dynamically on the home page based on companies that have the largest % change in their price (market movers)
 
-- Include a section for global currencies, if the data is in the API
+- Include code to allow this webite to adapt to smaller screens and be mobile friendly and for different screen sizes.
+
 
 ## My Challenges
 - I had a challenge with git branches and being able to push my commits to Github
@@ -52,16 +53,16 @@ https://cloud.iexapis.com/
 
 - I had a challenge with my API calls only running properly once, and the app would break if the page was refreshed
 
-- I had
+- I had a hard time getting my search to work, I was able to get the slug to reflect the user input in the searchbar, but could not render it to the page with data.
 
 ## My Wins and Successes
 - I was happy that I was able to properly display a collection of stocks and some basic data about the companies on my home page.
 
+- I feel as though this project came together as a more polished and complete website, compared to my previous project.
+
 ## Things I Would do Differently Next Time
+- I would try to code this website as a map function to display information from the API with only one API call. This would make the code more DRY.
 
 ## Getting Started
 Check out the site! Fork and clone the repository, and run the application!
 
-# Notes for me (remove prior to presentation)
--check giphy searcher for info on search bar
--react-router-lab is the in class stock assignment

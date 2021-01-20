@@ -4,39 +4,12 @@ import React, { useState, useEffect } from 'react';
 
 export default function Search () {
 
-const [data, setData] = useState();
-const [searchString, setSearchString] = useState('')
 
-   function handleChange(event) {
-       setSearchString(event.target.value);
-   }
-
-   function handleSubmit(event) {
-       event.preventDefault();
-       getData(searchString);
-   }
-
-
-useEffect(() => {
-    console.log(`Search Test Here: ${{searchString}}`)
-    getData(searchString)
-}, [])
-
-const getData = async (searchString) => {
-    const ticker = {searchString};
-    const key = process.env.REACT_APP_API_KEY;
-    const url = `https://cloud.iexapis.com/stable/stock/${ticker}/quote?token=${key}`
-
-
-    const dataResponse = await fetch(url)
-    const dataJson = await dataResponse.json()
-    setData(dataJson)
-}
 
     return (
-
+        
         <div className='dataDisplay'>
-       {
+       {/* {
            data != undefined
            ? 
            <div className='detailCompanyDisplay'>
@@ -56,7 +29,7 @@ const getData = async (searchString) => {
         </div>
         :
         null
-       }
+       } */}
        
 
         </div>
