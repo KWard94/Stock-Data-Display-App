@@ -9,6 +9,9 @@ body {
   margin: 0;
 }
 
+form {
+  align-self: start;
+}
 
 .company-container {
   margin: 0 auto;
@@ -72,10 +75,6 @@ body {
   padding:5px;
   height: 15rem;
 }
-
-/* .footer-container {
-  margin: 0 auto;
-} */
 
 
 .home {
@@ -141,7 +140,7 @@ body {
   text-align: center;
   margin: 0;
 }
-
+/*This controls the glow on hover of the home page companies*/
 @keyframes companyAnimation{
   from {
     background-color: slategrey;
