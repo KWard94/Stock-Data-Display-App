@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import Search from './Search';
+import SearchResults from './SearchResults';
 
 export default function Header () {
     return (
@@ -10,7 +10,7 @@ export default function Header () {
             <p className='tagLine'>A place for daily updated stock data from the New York Stock Exchange</p>
         {/* <Nav /> */}
 
-        <Search />
+        <SearchResults />
         </div>
     )
 };
