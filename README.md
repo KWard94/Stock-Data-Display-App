@@ -1,5 +1,5 @@
 #### This is a NYSE Stock Data App!
-Welcome, this will be an app built in React to display stock data from the New York Stock Exchange!
+Welcome, this is an app built in React to display stock data from the New York Stock Exchange!
 
 ## Link to Deployed Site
 Link: https://nyse-stock-data.herokuapp.com/
