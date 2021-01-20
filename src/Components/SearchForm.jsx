@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import SearchResults from './SearchResults';
-import { Link, Redirect } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Redirect } from 'react-router-dom';
 
 
 //unsure if I will need all of these parameters below

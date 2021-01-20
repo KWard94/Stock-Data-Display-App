@@ -1,14 +1,12 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { Route, withRouter } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Header from './Components/Header.jsx';
 import Home from './Components/Home.jsx';
 import Footer from './Components/Footer.jsx';
-import CompanyDetails from './Components/Company-Details/AppleDetails.jsx';
 import AppleDetails from './Components/Company-Details/AppleDetails.jsx';
 import FacebookDetails from './Components/Company-Details/FacebookDetails';
 import MicrosoftDetails from './Components/Company-Details/MicrosoftDetails';
-// import MorganStanley from './Components/Homepage_Companies/MorganStanley';
 import SnapchatDetails from './Components/Company-Details/SnapchatDetails';
 import TeslaDetails from './Components/Company-Details/TeslaDetails';
 import MorganStanleyDetails from './Components/Company-Details/MorganStanleyDetails';

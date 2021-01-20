@@ -31,7 +31,7 @@ export default function Spanchat () {
 
         <div className='dataDisplay'>
        {
-           data != undefined
+           data !== undefined
            ? 
            <div className='testCompanyDisplay'>
             <h5>Company Name: {data.companyName}</h5>

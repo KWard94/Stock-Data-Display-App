@@ -28,7 +28,7 @@ export default function FacebookDetails () {
     
             <div className='dataDisplay'>
            {
-               data != undefined
+               data !== undefined
                ? 
                <div className='detailCompanyDisplay'>
                 <h3>Company Name: {data.companyName}</h3>

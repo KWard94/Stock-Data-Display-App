@@ -29,7 +29,7 @@ export default function Facebook () {
         <Link to='../Company-Details/FacebookDetails.jsx'>
         <div className='dataDisplay'>
        {
-           data != undefined
+           data !== undefined
            ? 
            <div className='testCompanyDisplay'>
             <h5>Company Name: {data.companyName}</h5>

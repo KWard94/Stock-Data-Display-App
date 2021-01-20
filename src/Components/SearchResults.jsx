@@ -1,5 +1,4 @@
 import React from 'react';
-import SearchForm from './SearchForm.jsx';
 
 export default function SearchResults ({data}) {
     console.log(`test: ${data}`)
@@ -7,7 +6,7 @@ export default function SearchResults ({data}) {
         
         <div className='dataDisplay'>
        {
-           data != undefined
+           data !== undefined
            ? 
            <div className='detailCompanyDisplay'>
             <h3>Company Name: {data.companyName}</h3>
