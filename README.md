@@ -16,7 +16,11 @@ https://cloud.iexapis.com/
 ![image](https://media.git.generalassemb.ly/user/32807/files/4a027200-54ff-11eb-867f-8c0c297784ce)
 
 ## Screenshot of Live App
-(A screenshot will go here when the app is complete)
+Home Screen
+![image](https://user-images.githubusercontent.com/75279409/105228413-cf99a980-5b1f-11eb-8283-dc71c410e641.png)
+
+Detail View and Links
+![image](https://user-images.githubusercontent.com/75279409/105228600-f9eb6700-5b1f-11eb-903d-4cb0c368552b.png)
 
 ## User Stories
 - As a casual user, I would like to be able to see popular stocks displayed on the main page so I can keep an eye on the companies that interest me.
