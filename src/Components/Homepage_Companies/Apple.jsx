@@ -18,6 +18,7 @@ export default function Apple () {
         const dataJson = await dataResponse.json()
         setData(dataJson)
     }
+    
 
     useEffect(() => {
 

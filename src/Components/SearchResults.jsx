@@ -20,7 +20,10 @@ export default function SearchResults ({data}) {
 
         </div>
         :
-        null
+        <div className='detailCompanyDisplay'>
+            <h3>Sorry, that symbol does not exist!</h3>
+            <h5>Return to the home page to search again</h5>
+            </div>
        }
 
         </div>
