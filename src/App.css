@@ -86,6 +86,10 @@ form {
   border: solid;
 }
 
+.homeLink {
+  border: solid aliceblue 2px;
+}
+
 .mainTitle{
   font-size: 3rem;
 }

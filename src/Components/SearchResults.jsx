@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function SearchResults ({data}) {
     console.log(`test: ${data}`)
@@ -23,6 +24,7 @@ export default function SearchResults ({data}) {
         <div className='detailCompanyDisplay'>
             <h3>Sorry, that symbol does not exist!</h3>
             <h5>Return to the home page to search again</h5>
+            <a href='/' className='homeLink'>Home</a>
             </div>
        }
 
